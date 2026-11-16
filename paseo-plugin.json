@@ -1,0 +1,7 @@
+{
+  "id": "antigravity-usage-source",
+  "description": "Antigravity CLI (agy) plan quota in the Paseo usage panel: Gemini and Claude/GPT weekly and five-hour remaining, read from `agy -p \"/quota\"`.",
+  "requirements": {
+    "paseo": ">=0.15.3"
+  }
+}

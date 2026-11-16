@@ -1,0 +1,31 @@
+{
+  "name": "paseo-antigravity-usage-source",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "paseo-plugin.json",
+    "index.server.ts",
+    "server/",
+    "shared/",
+    "icon.svg",
+    "README.md",
+    "OVERVIEW.md"
+  ],
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "node --test server/*.test.ts"
+  },
+  "devDependencies": {
+    "@getpaseo/client": "^0.16.0",
+    "@getpaseo/plugin": "^0.16.0",
+    "@getpaseo/protocol": "^0.16.0",
+    "@types/node": "^24.0.0",
+    "typescript": "^5.9.3",
+    "zod": "^4.4.3"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apple-ouyang/paseo-antigravity-usage-source.git"
+  }
+}
